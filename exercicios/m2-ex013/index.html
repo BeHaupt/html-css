@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      body {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        background-color: #004b76;
+      }
+
+      a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: darkred;
+      }
+
+      a:hover {
+        color: aqua;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: blueviolet;
+      }
+
+      .botao {
+        border: solid 1px white;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 10px 25px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      .botao:hover {
+        background-color: #cccccc;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+    <ul>
+      <li>
+        <a href="https://github.com/BeHaupt" target="_blank">Meu github</a>
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/behaupt/" target="_blank"
+          >Meu Instagram</a
+        >
+      </li>
+
+      <li>
+        <a href="https://www.instagram.com/centralcee" target="_blank"
+          >Meu Cantor Favorito</a
+        >
+      </li>
+    </ul>
+
+    <a href="https://www.instagram.com/behaupt/" target="_blank">
+      <button class="botao">SABER MAIS</button>
+    </a>
+  </body>
+</html>
