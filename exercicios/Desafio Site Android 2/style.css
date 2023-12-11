@@ -1,0 +1,89 @@
+@font-face {
+  font-family: IDroid;
+  src: url(fontes/idroid.otf);
+}
+
+body {
+  margin: 0;
+  background-color: #84e1ad;
+}
+
+header {
+  background: linear-gradient(#029944, #046b31, #092716);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+div#titulo {
+  text-align: center;
+  color: white;
+}
+
+nav > a {
+  display: inline;
+  padding: 5px 5px 0px 10px;
+  text-decoration: none;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  color: rgb(103, 201, 103);
+}
+
+nav > a:hover {
+  border: solid 1px rgba(121, 204, 121, 0.61);
+  background-color: rgba(121, 204, 121, 0.61);
+  border-radius: 5px;
+  padding: 7px 7px 7px 7px;
+}
+
+article#item1 {
+  padding: 15px 15px 0px 15px;
+  font-size: large;
+}
+
+article#item2 {
+  padding: 15px 15px 15px 15px;
+  font-size: large;
+}
+
+article#item3 {
+  padding: 15px 15px 15px 15px;
+  font-size: large;
+}
+
+main {
+  background-color: white;
+  margin-left: 170px;
+  margin-right: 170px;
+  box-shadow: 0px 2px 7px 3px rgba(0, 0, 0, 0.493);
+}
+
+.img {
+  padding: 15px 15px 0px 15px;
+  font-size: large;
+}
+
+article > h1 {
+  font-family: IDroid;
+  color: #246340;
+}
+
+article > h2 {
+  padding: 0px 0px 0px 10px;
+  font-family: IDroid;
+  color: #246340;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #b8e9ce, #c2e3d170, #cbe8d82d);
+}
+
+footer {
+  background-color: #1a5c38;
+  padding: 1px 1px;
+  text-align: center;
+  color: white;
+}
