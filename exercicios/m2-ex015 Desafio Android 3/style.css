@@ -194,6 +194,9 @@ aside > ul {
   color: var(--cor5);
 }
 
+button {
+  border: none;
+}
 
 footer {
   background-color: var(--cor5);
