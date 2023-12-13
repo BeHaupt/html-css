@@ -213,10 +213,15 @@ footer {
 ul {
   padding: 0px 15px 15px 40px;
   margin-bottom: 10px;
+  
  }
  
 ul > li {
    margin: 15px 15px 0px 15px;
+ }
+ 
+ div > img {
+  width: 300px;
  }
  
  article h2 {
@@ -228,6 +233,14 @@ ul > li {
   margin-top: 60px;
  }
 
+ .coluna {
+  display: inline-flexbox;
+ }
+
+ img {
+  width: 400px;
+ }
+
  .p1 {
   text-indent: 0px;
  }
@@ -236,7 +249,7 @@ ul > li {
  .p2 {
   text-indent: 0px;
   max-width: 470px;
-  margin-left: 0px;
+  
  }
 
 
