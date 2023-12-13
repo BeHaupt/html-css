@@ -56,6 +56,7 @@ header > h1 {
   font-family: var(--fonte-destaque);
   font-size: 3em;
   font-weight: normal;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.548);
   margin-bottom: 20px;
 }
 
@@ -107,7 +108,7 @@ main a {
   font-weight: bold;
   background-color: var(--cor1);
   border-radius: 5px;
-  padding: 1px 5px;
+  padding: 0px 5px;
 }
 
 main a:hover {
@@ -206,3 +207,41 @@ footer {
   font-size: 0.8;
   font-style: italic;
 }
+
+/*Pagina 2*/
+
+ul {
+  padding: 0px 15px 15px 40px;
+  margin-bottom: 10px;
+ }
+ 
+ul > li {
+   margin: 15px 15px 0px 15px;
+ }
+ 
+ article h2 {
+   margin: 10px 0px 25px 0px;
+ }
+
+ article h1 {
+  margin-left: 20px;
+  margin-top: 60px;
+ }
+
+ .p1 {
+  text-indent: 0px;
+ }
+
+
+ .p2 {
+  text-indent: 0px;
+  max-width: 470px;
+  margin-left: 0px;
+ }
+
+
+ 
+
+
+ 
+
